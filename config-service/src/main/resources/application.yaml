@@ -6,7 +6,7 @@ spring:
       server:
         git:
           default-label: seguridad-v2
-          uri: https://github.com/renzo611/auta_challenge
+          uri: https://github.com/renzo611/tesis-backend
           search-paths: config-data
   application:
     name: config-service
