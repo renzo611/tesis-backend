@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: main
-          uri: https://github.com/Cjesus123/seguridad
+          default-label: seguridad-v2
+          uri: https://github.com/renzo611/auta_challenge
           search-paths: config-data
   application:
     name: config-service
