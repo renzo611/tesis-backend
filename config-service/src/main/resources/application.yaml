@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: seguridad-v2
+          default-label: main
           uri: https://github.com/renzo611/tesis-backend
           search-paths: config-data
   application:

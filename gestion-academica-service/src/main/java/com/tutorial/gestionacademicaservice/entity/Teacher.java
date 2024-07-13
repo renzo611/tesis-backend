@@ -1,8 +1,9 @@
-package com.tutorial.docenteservice.entity;
+package com.tutorial.gestionacademicaservice.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,5 +34,4 @@ public class Teacher{
         this.dni = dni;
         this.email = email;
     }
-
 }
