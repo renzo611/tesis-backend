@@ -9,15 +9,10 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
-paths:
-  director_carrera:
-    - uri: "/aula/lista"
-      method: "GET"
-  bedelia:
-    - uri: "/carrera"
-      method: "GET"
 
 spring:
+  application:
+    zipkin: http://localhost:9411
   datasource:
     url: jdbc:mysql://localhost:3306/database
     username: ${DB_USER}
