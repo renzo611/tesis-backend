@@ -21,6 +21,7 @@ public class Subject {
     private Integer id;
     private String name;
     private int numberRegistered;
+    @Enumerated(EnumType.STRING)
     private PeriodType periodType;
     private int subjectYear;
     private int weeklyLoad;
